@@ -83,11 +83,12 @@ DATABASES = {
 """
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'travello',
-        'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST': 'localhost'
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'bokeh_project',
+        'USER': 'bokeh_user',
+        'PASSWORD': 'bokeh123',
+        'HOST': 'dsviz.chassealoiesauvage.com',
+        'PORT': '5432',   
     }
 }
 
